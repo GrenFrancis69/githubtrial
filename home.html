@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <div class="mainhome">
+        <div class="leftsidediv">
+
+        </div>
+
+        <div class="rightsidediv">
+            <div>
+                <div style="width: 100px;" id="btnsignup"><button>SIGN UP</button></div>
+                <div id="btnlogin"><button>LOG IN</button></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="signup" id="signupform">
+        <div class="signupholder" id="signupbtn">
+            <img src="/Image/download.jfif" alt="" class="twitbird">
+            <div class="twitsign" style="display: flex; width: 100px; justify-content: space-between;"><h5>SIGN UP TO TWITTER</h5> <p></p></div>
+
+            <div><input type="text" id="username" placeholder="Enter your Name"></div>
+            <div><input type="text" id="userphoneno" placeholder="Enter your Phone Number"></div>
+            <div><input type="email" id="email" placeholder="Enter your email"></div>
+            <div><input type="email" id="password" placeholder="Enter your password"></div>
+            <button class="btn1" id="signupbtn">SIGN UP</button>
+        </div>
+    </div>
+
+    <div class="login" id="loginform">
+        <div class="loginholder" id="loginpbtn">
+            <img src="/Image/download.jfif" alt="" class="twitbird">
+            <div class="twitlog" style="display: flex; width: 100px; justify-content: space-between;"><h5>log in</h5> <p></p></div>
+            <div><input type="email" id="loginemail" placeholder="Enter your email"></div>
+            <div><input type="email" id="loginpassword" placeholder="Enter your password"></div>
+            <button class="btn1" id="loginbtn">LOG IN</button>
+            <p>Forgot Password? <a href="/passrecov.html">Click here to reset password</a></p>
+        </div>
+    </div>
+
+    <a class="goto" id="goto" href="/homepage.html"></a>
+
+    
+
+    
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js";></script>
+    
+    <script src="/config.js"></script>
+    <script src="/home.js"></script>
+    <script src="/login.js"></script>
+
+
+
+    
+</body>
+</html>

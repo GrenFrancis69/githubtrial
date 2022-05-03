@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+}
+
+.mainhome {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.leftsidediv {
+    height: 100vh;
+    width: 50%;
+    background-image: url(/Image/lohp_en_1302x955.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rightsidediv {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightsidediv button {
+    margin: 10px;
+    width: 70vh;
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: rgb(0, 162, 255);
+    
+}
+
+.signup {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: none;
+    cursor: pointer;
+    background: grey;
+    border-radius: 5px;
+
+}
+
+.signupholder {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    height: 400px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signupholder input {
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: none;
+    cursor: pointer;
+    background: grey;
+    border-radius: 5px;
+
+}
+
+.loginholder {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginholder input {
+    width: 70%;
+    padding: 7px;
+}
+
+.twitbird {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.twitsign {
+    font-size: 20px;
+    color: rgb(0, 162, 255);
+}
+
+.twitlog {
+    font-size: 30px;
+    color: rgb(0, 162, 255);
+}

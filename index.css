@@ -1,0 +1,39 @@
+.navbar {
+    background-color: black;
+    height: 15vh;
+    padding: 20px;
+}
+.navbar h1 a {
+    color: yellow;
+    text-decoration: none;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    padding: 10px;
+    list-style-type: none;
+    left: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #e0a;
+}
+.intro {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.intro p{
+    color: yellow;
+}
+.intro span{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800px;
+}
+.services .fa-css3{
+    color: yellow;
+
+}
